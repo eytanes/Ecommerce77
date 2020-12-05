@@ -9,12 +9,13 @@ import {
 } from "../../contexts/cartContext"
 
 function Payement(props) {
+  console.log(props.total)
   const [paid, setPaid] = useState(false)
   const [error, setError] = useState(null)
   const [cart, dispatch] = useCart()
   const paypalRef = useRef()
-  const total= props.total
   const mail =props.mail
+  const expressPayment = props.expressPayment
   const address = props.address
   const onSuccess = async () => {
     // Envoyer la commande au server
@@ -43,6 +44,7 @@ function Payement(props) {
   }
   // const price = this.props.price
   useEffect(() => {
+    [...paypalRef.current.children].forEach((e) => e.remove())
     window.paypal
       .Buttons({
         createOrder: (data, actions) => {
@@ -52,7 +54,7 @@ function Payement(props) {
               description: "Payement",
               amount: {
                 currency_code: "EUR",
-                value: total,
+                value: expressPayment ? props.total+10 : props.total,
               },
             }, ],
           })
@@ -83,7 +85,7 @@ function Payement(props) {
         },
       })
       .render(paypalRef.current)
-  }, [])
+  }, [props.total , expressPayment])
   if (paid) {
     onSuccess()
     

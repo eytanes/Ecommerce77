@@ -17,6 +17,8 @@ const ShoppingCart = () => {
   const [mail, setMail] = useState(auth.email)
   const [address, setAddress] = useState(auth.address)
 
+  const [total, setTotal] = useState(cart.reduce((acc, item) => acc + item.count * item.price, 0))
+
   const [status, setStatus] = useState([])
   const [delivery, setDelivery]=useState("collissimo")
   // const [total, setTotal]= useState(cart.reduce((acc, item) => acc + item.count * item.price, 0))
@@ -26,6 +28,10 @@ const ShoppingCart = () => {
       _id,
     })
   }
+
+  useEffect(() => {
+    setTotal(cart.reduce((acc, item) => acc + item.count * item.price, 0))
+  }, [cart])
 
   useEffect(() => {
     setMail(auth.email)
@@ -86,11 +92,6 @@ const ShoppingCart = () => {
   
   // }
 
-  var total = cart.reduce((acc, item) => acc + item.count * item.price, 0)
-  if (delivery== "express"){
-    total+= 10
-  }
-
   if (open === true && cart.length > 0) {
     return (
       <>
@@ -131,7 +132,7 @@ const ShoppingCart = () => {
                   return(<div>blalalls
                   {status.every((s) => s.available) && (
                     // <Paypal onSuccess={onSuccess} toPay={total} /> l'autre payement est mieux
-                    <Payement total={total} mail={mail} address={address}/>
+                    <Payement total={total} mail={mail} address={address} expressPayment={delivery=="express" }/>
                   )}</div>)
 
                 }}
@@ -179,10 +180,10 @@ const ShoppingCart = () => {
     </div>
     <p>{delivery}</p>
      </div>
-          <p>Total: {total} €</p>
+          <p>Total: {delivery=="express"? total+10 : total} €</p>
           {status.every((s) => s.available) && (
             // <Paypal onSuccess={onSuccess} toPay={total} /> l'autre payement est mieux
-            <Payement total={total} mail={mail} address={address}/>
+            <Payement total={total} mail={mail} address={address} expressPayment={delivery=="express"}/>
           )}
           
         </div>
