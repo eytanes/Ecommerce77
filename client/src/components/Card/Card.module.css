@@ -1,0 +1,72 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1b1b1b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0feb21;
+}
+
+::-webkit-scrollbar-button {
+  background-color: black;
+}
+
+.card {
+  box-shadow: 4px 4px 6px #aaa;
+  border-radius: 2%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+
+  margin-left: 50px;
+  margin-top: 20px;
+
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.25rem;
+}
+
+.card:hover {
+  opacity: 80%;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+.photo {
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.title {
+  color: rgb(13, 14, 13);
+}
+.price {
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+  font-weight: 800;
+  font-size: 30px;
+}
+.logo {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.25rem;
+  width: 70px;
+  height: 70px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,103 @@
+.cart {
+  float: right;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: linear-gradient(blue, red);
+  color: white;
+  cursor: pointer;
+}
+.cartIcon {
+  position: relative;
+  top: 12px;
+}
+.numberOfItems {
+  position: relative;
+  display: block;
+  left: 35px;
+  bottom: 25px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: darkblue;
+  color: white;
+
+  padding-bottom: 2px;
+}
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.panier {
+  /* float :right;
+    right:50%; */
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  padding-top: 15px;
+  /* box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12); */
+  height: 2000px;
+  width: 1000px;
+  /* height:100vh; */
+  /* top: 20%; */
+  z-index: 30;
+  background-color: #ffffff;
+
+  font-family: "Montserrat", sans-serif;
+  /* position: fixed; */
+  width: 100%;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+.item {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: block;
+  width: 700px;
+  height: 300px;
+  border-color: black;
+  border-style: solid;
+}
+.removeItem {
+  cursor: pointer;
+  position: relative;
+  bottom: 150px;
+  float: right;
+  right: 10px;
+}
+.close {
+  /* float:right; */
+  position: absolute;
+  right: 100px;
+  cursor: pointer;
+}
+.details {
+  top: 20px;
+  position: relative;
+  right: 150px;
+  font-size: 30px;
+}
+.form {
+  position: fixed;
+  bottom: 150px;
+  left: 1000px;
+  z-index: 35;
+}
+.input {
+  width: 350px;
+  margin-bottom: 20px;
+}
+.as {
+  color: white;
+}
+.delevery{
+  height:50px;
+}

@@ -1,0 +1,15 @@
+.header {
+    
+  
+    /* top: 0px !important; */
+    height:48px ;
+    background-color: darkblue;
+    color: white;
+    position: relative;
+}
+.title{
+    display: inline
+}
+.logo {
+    width: 50px;
+}

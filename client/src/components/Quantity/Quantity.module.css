@@ -1,0 +1,122 @@
+.bg{
+    background-color: white;
+}
+
+.button{
+ 
+
+
+
+}
+.square{
+    height:30px;
+    width: 30px;
+    
+    padding-bottom: 27px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-color: cyan;
+    
+    border-radius:20%;
+    border: solid rgb(96, 89, 189)  ;
+}
+.inline{
+    display: inline;
+ 
+}
+.minus{
+    float: left;
+    left: 20px;
+}
+.total{
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+  
+}
+.addToCard{
+   /* position: relative;
+    left: 20px;
+    margin-left: 10px;
+    background-color: fuchsia;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+     border-radius:0.12em;
+     box-sizing: border-box;
+     font-family:'Roboto',sans-serif;
+     font-weight:300;
+     color:#000000;
+     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+     background-color:#42cc8c;
+     text-align:center;
+     transition: all 0.15s;
+     cursor:pointer;
+     border-radius: 25%;
+*/
+   color: white;
+   margin: 0px 0px 10px;
+   padding: 14px 24px 24px;
+   background-color: #00d733;
+   border-radius: 6px;
+   font: 35px "Roboto",sans-serif; 
+   cursor:pointer;
+   
+
+
+  
+    
+    
+}
+.addToCard:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+    }
+      @media all and (max-width:30em){
+         .addToCard{
+        display:block;
+        margin:0.4em auto;
+    }
+        }
+.nombre{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.input{
+  
+    
+    padding: 12px 15px;
+    margin: 8px 0;
+    
+  
+}
+.reset{
+    margin-left: 20px;
+}
+/* .popUp{
+    position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5); 
+}
+.popup\_inner {  
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: auto;  
+    border-radius: 20px;  
+    background: white;  
+  } */

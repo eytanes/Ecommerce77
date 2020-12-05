@@ -1,0 +1,71 @@
+.cardlist {
+  clear: both;
+  display: flex;
+  margin-left: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+
+  margin-bottom: 5px;
+}
+.categories {
+  position: relative;
+  right: 120px;
+  border-radius: 15%;
+  border-color: black;
+  margin-right: 20px;
+  height: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.fab-add {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+  font-size: 2.5rem;
+  color: white;
+  border: none;
+  background: fuchsia;
+  box-shadow: 2px 2px 6px #888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fab-add p {
+  margin: 0;
+}
+
+
+@media all and (max-width: 30em) {
+   .categories {
+    display: block;
+    margin: 0.2em auto;
+  }
+}
+.noDisplay {
+  display: none;
+}
+.addProductForm {
+  position: absolute;
+  /* left:200px;
+ top:20px; */
+  height: 100px;
+  width: 100px;
+  z-index: 330;
+  background-color: blue;
+}
+.closeAdd{
+  color: rgb(255, 255, 255);
+  position: relative;
+  bottom: 900px;
+  float: right;
+  right:20%;
+  z-index:400;
+  cursor: pointer;
+  
+}
