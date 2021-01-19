@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "5f6c913ef9eb2db2f19521ee"
+  },
+  "userName": "nouveautest",
+  "address": "test",
+  "email": "eytanetest@gmail.com",
+  "password": "$2b$10$BLlaYgcb.L8fPLWj5XHWY.e7xIepnXJsbl/xzTi0kA0icesPKxLYC",
+  "isAdmin": true
+},{
+  "_id": {
+    "$oid": "5f88bfbeb96a3a5dd4fb0014"
+  },
+  "userName": "eytane",
+  "address": "test",
+  "email": "eytaneschwartzpro@gmail.",
+  "password": "$2b$10$lkb2tOM28XLjfzqGO6UlpOeVCUwXF.i2Yby1.SAkNURh7jDZcee9O"
+},{
+  "_id": {
+    "$oid": "5fa026ef58224d24e8f6b282"
+  },
+  "userName": "patrick",
+  "address": "7rue la",
+  "email": "eytanejeu@gmail.com",
+  "password": "$2b$10$LLwVtfCb/REc9Srwasf73eXG1l3rQ3pmG5Q1OeJDvuBjzeDVouyr.",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "5fa032f058224d24e8f6b284"
+  },
+  "userName": "natan",
+  "address": "5 rue pe",
+  "email": "eytanereal@gmail.com",
+  "password": "$2b$10$uVBmVc5uSQ21XIjC0Sm5kO.CepXjpS9o4q8JxuuBJgttDysJGylpW",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "5fcfecbfd4ca6d38785944dc"
+  },
+  "userName": "papa",
+  "address": "",
+  "email": "gaby.schwartz@gmail.com",
+  "password": "$2b$10$CxUXfP3MgXSpuqksTKqw8.nOPAAhu644FgyxgTPKGCXrYI4FpVSmC",
+  "isAdmin": false
+},{
+  "_id": {
+    "$oid": "5fe23179497fee4fe07326e4"
+  },
+  "userName": "meir",
+  "address": "12 rue petit",
+  "email": "meirsabbah@gmail.com",
+  "password": "$2b$10$QbGR9HPk7C6DPhWvQMtRfu1Qg6uFUHHDX3SuhP795eABT/bpk/Sji",
+  "isAdmin": false
+}]

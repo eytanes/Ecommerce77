@@ -1,0 +1,250 @@
+[{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c0d"
+  },
+  "photo": "http://localhost:8080/images/maillot/realD.jpg",
+  "name": "maillot real madrid",
+  "description": "domicile",
+  "price": 90,
+  "curency": "€",
+  "stock": 200,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c0e"
+  },
+  "photo": "http://localhost:8080/images/maillot/realE2.jpg",
+  "name": "maillot real madrid",
+  "description": "exterieur",
+  "price": 90,
+  "curency": "€",
+  "stock": 996,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c0f"
+  },
+  "photo": "http://localhost:8080/images/maillot/real3rd.jpg",
+  "name": "maillot real madrid",
+  "description": "3ème maillot",
+  "price": 42,
+  "curency": "€",
+  "stock": 5,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c10"
+  },
+  "photo": "http://localhost:8080/images/maillot/atleticoD.jpg",
+  "name": "maillot atletico",
+  "description": "domicile",
+  "price": 90,
+  "curency": "€",
+  "stock": 100,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "nike",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/nike.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c11"
+  },
+  "photo": "http://localhost:8080/images/maillot/interD.jpg",
+  "name": "maillot inter milan",
+  "description": "domicile",
+  "price": 50,
+  "curency": "€",
+  "stock": 100,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "nike",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/nike.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c12"
+  },
+  "photo": "http://localhost:8080/images/maillot/juventusD.png",
+  "name": "maillot juventus turin",
+  "description": "domicile",
+  "price": 80,
+  "curency": "€",
+  "stock": 192,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c13"
+  },
+  "photo": "http://localhost:8080/images/maillot/manCityA.jpg",
+  "name": "maillot manchester city",
+  "description": "3ème maillot",
+  "price": 90,
+  "curency": "€",
+  "stock": 74,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "puma",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/puma.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c14"
+  },
+  "photo": "http://localhost:8080/images/maillot/tottenhamD.jpg",
+  "name": "maillot tottenham",
+  "description": "domicile",
+  "price": 80,
+  "curency": "€",
+  "stock": 0,
+  "isPromo": false,
+  "newPrice": "null",
+  "marque": "nike",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/nike.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c15"
+  },
+  "photo": "http://localhost:8080/images/maillot/liverpoolD.jpg",
+  "name": "maillot liverpool",
+  "description": "domicile",
+  "price": 90,
+  "curency": "€",
+  "stock": 195,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "new balance",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/newBalance.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c16"
+  },
+  "photo": "http://localhost:8080/images/maillot/ajaxD2.jpg",
+  "name": "maillot ajax amsterdam",
+  "description": "domicile",
+  "price": 60,
+  "curency": "€",
+  "stock": 498,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c17"
+  },
+  "photo": "http://localhost:8080/images/maillot/ajaxE2.jpg",
+  "name": "maillot ajax amsterdam",
+  "description": "extérieur",
+  "price": 75,
+  "curency": "€",
+  "stock": 54,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c18"
+  },
+  "photo": "http://localhost:8080/images/maillot/psgD.jpg",
+  "name": "maillot psg",
+  "description": "domicile",
+  "price": 100,
+  "curency": "€",
+  "stock": 116,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "nike",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/nike.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c19"
+  },
+  "photo": "http://localhost:8080/images/ballon/mondial18.jpg",
+  "name": "ballon coupe du monde",
+  "description": "2018",
+  "price": 30,
+  "curency": "€",
+  "stock": 98,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "ballon",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5eb2bdd2859247bd57096c1a"
+  },
+  "photo": "http://localhost:8080/images/ballon/championsLeague20.jpg",
+  "name": "ballon ligue des champions",
+  "description": "2019-2020",
+  "price": 30,
+  "curency": "€",
+  "stock": 95,
+  "isPromo": false,
+  "newPrice": "",
+  "marque": "addidas",
+  "categorie": "ballon",
+  "logo": "http://localhost:8080/images/logo/addidas.png"
+},{
+  "_id": {
+    "$oid": "5f74d194319f552a9402d896"
+  },
+  "name": "maillot om",
+  "description": "domicile",
+  "price": 90,
+  "curency": "€",
+  "stock": 110,
+  "marque": "puma",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/puma.png",
+  "photo": "https://www.cdiscount.com/pdt2/3/2/0/1/700x700/mp28532320/rw/puma-maillot-olympique-de-marseille-om-domicile-bl.jpg"
+},{
+  "_id": {
+    "$oid": "5fb289619fbde944743aec65"
+  },
+  "name": "maillot strasbourg",
+  "description": "domicile",
+  "price": 80,
+  "curency": "€",
+  "stock": 17,
+  "marque": "addidas",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/addidas.png",
+  "photo": "https://football-equipement.com/wp-content/uploads/2019/08/RCSA_MAILLOT_HOME_face_BD_1.png"
+},{
+  "_id": {
+    "$oid": "5fb41c6717e6f9413c531676"
+  },
+  "name": "maillot equipe de france",
+  "description": "domicile",
+  "price": 85,
+  "curency": "€",
+  "stock": 50,
+  "marque": "nike",
+  "categorie": "maillot",
+  "logo": "http://localhost:8080/images/logo/nike.png",
+  "photo": "https://www.cdiscount.com/pdt2/0/2/2/1/700x700/mp12492022/rw/nouveau-maillot-homme-nike-france-domicile-champio.jpg"
+}]
