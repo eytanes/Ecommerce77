@@ -8,18 +8,18 @@ function orderBy( order, callBack) {
     });
   
 }
-function descendingOrder(callBack) {
-  MongoClient.connect(connectionURL, function (err, db) {
-    if (err) throw err;
-    var dbo = db.db(databaseName);
-    dbo.collection("products").find().sort( { price: -1 } ).toArray(function (err, result) {
-      if (err) throw err;
+// function descendingOrder(callBack) {
+//   MongoClient.connect(connectionURL, function (err, db) {
+//     if (err) throw err;
+//     var dbo = db.db(databaseName);
+//     dbo.collection("products").find().sort( { price: -1 } ).toArray(function (err, result) {
+//       if (err) throw err;
      
-      db.close();
-      return callBack(result)
-    });
-  });
-}
+//       db.close();
+//       return callBack(result)
+//     });
+//   });
+// }
 
 module.exports= 
 { orderBy}

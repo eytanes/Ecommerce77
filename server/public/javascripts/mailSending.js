@@ -24,7 +24,7 @@ function sendOrderEmail(destEmail, items) {
   send(
     {
       to: destEmail,
-      html: `<div> nous vous remercions de votre commande chez go foot,vous venez de commander : <br> ${itemsHTML} <br> la commande vous sera livré d'ici 2 semaine </div>`,
+      html: `<div> nous vous remercions de votre commande chez go foot,vous venez de commander : <br> ${itemsHTML} <br> la commande vous sera livré au plus vite </div>`,
     },
     (error, result, fullResult) => {
       if (error) console.error(error)

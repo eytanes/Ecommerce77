@@ -44,7 +44,7 @@ function Payement(props) {
   }
   // const price = this.props.price
   useEffect(() => {
-    [...paypalRef.current.children].forEach((e) => e.remove())
+    [...paypalRef.current.children].forEach((e) => (e.style.display= "none"))
     window.paypal
       .Buttons({
         createOrder: (data, actions) => {

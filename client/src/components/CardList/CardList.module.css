@@ -10,10 +10,12 @@
 }
 .categories {
   position: relative;
-  right: 120px;
-  border-radius: 15%;
-  border-color: black;
-  margin-right: 20px;
+  right: 230px;
+  bottom: 60px;
+  color: white;
+  border: none;
+  background: none;
+  margin-right: 10px;
   height: 50px;
   width: 100px;
   cursor: pointer;
